@@ -1181,7 +1181,7 @@ body::-webkit-scrollbar-thumb,
     gap: 10px;
     align-items: center;
     justify-content: center;
-    width: 100vw;
+    width: 100%;
     background-color: #f2f6fc;
     padding: 5px;
 }
