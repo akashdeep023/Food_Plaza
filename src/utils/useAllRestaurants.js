@@ -22,7 +22,7 @@ const useAllRestaurants = () => {
 				FETCH_REST_URL +
 					"lat=" +
 					location.latitude +
-					"&lng=" +
+					"%26lng=" +
 					location.longitude
 			);
 			const json = await data.json();

@@ -13,9 +13,9 @@ const useRestaurant = (resId) => {
 			const data = await fetch(
 				FETCH_MENU_URL +
 					resId +
-					"&lat=" +
+					"%26lat=" +
 					location.latitude +
-					"&lng=" +
+					"%26lng=" +
 					location.longitude
 			);
 			const json = await data.json();

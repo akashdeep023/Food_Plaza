@@ -32,7 +32,7 @@ const Body = () => {
 			const documentHeight = document.body.scrollHeight;
 			const distanceFromBottom =
 				documentHeight - (scrollPosition + viewportHeight);
-			if (!againApiCall) {
+			if (!againApiCall && allRestaurants != null) {
 				if (distanceFromBottom <= 400) {
 					setExtraRestsData([]);
 					setAgainApiCall(true);

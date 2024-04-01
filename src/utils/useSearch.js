@@ -15,7 +15,7 @@ const useSearch = (query) => {
 			FETCH_PRE_SEARCH_URL +
 				"lat=" +
 				location.latitude +
-				"&lng=" +
+				"%26lng=" +
 				location.longitude
 		);
 		const json = await data.json();
@@ -35,11 +35,11 @@ const useSearch = (query) => {
 		}
 		const data = await fetch(
 			FETCH_SEARCH_URL +
-				"&lat=" +
+				"%26lat=" +
 				location.latitude +
-				"&lng=" +
+				"%26lng=" +
 				location.longitude +
-				"&str=" +
+				"%26str=" +
 				query
 		);
 		const json = await data.json();
