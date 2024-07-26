@@ -2,8 +2,7 @@ export const IMG_URL =
 	"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/";
 export const IMG_SMALL_URL =
 	"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,e_color,c_fill/";
-const CORS_URL =
-	process.env.REACT_APP_CORS_URL || "https://cors-handler.onrender.com/";
+const CORS_URL ="https://cors-handlers.vercel.app/";
 // ----------------------------------------------------------------
 export const FETCH_REST_URL = `${CORS_URL}api/?url=https%3A%2F%2Fwww.swiggy.com%2Fdapi%2Frestaurants%2Flist%2Fv5%3Fis-seo-homepage-enabled%3Dtrue%26page_type%3DDESKTOP_WEB_LISTING%26`;
 // "https://corsproxy.org/?https%3A%2F%2Fwww.swiggy.com%2Fdapi%2Frestaurants%2Flist%2Fv5%3Fis-seo-homepage-enabled%3Dtrue%26page_type%3DDESKTOP_WEB_LISTING%26"; //lat=25.5940947&lng=85.1375645
