@@ -85,19 +85,12 @@ A huge shoutout to Akshay Saini 🚀 sir for being a constant source of inspirat
 ## Author
 
 Akash Deep \
-Email: ad3500476@gmail.com \
+Email: contact.akashdeep023@gmail.com \
 LinkedIn : https://www.linkedin.com/in/akashdeep023/
-
-## Project Link
-
--   [1st Live Link](https://food-plaza-jack.onrender.com/)
--   [2st Live Link](https://food-plaza-jack.onrender.com/)
 
 ## Thank You
 
 Thank you for exploring Food_Plaza! Your feedback is valuable. If you have any suggestions or thoughts, feel free to share them with us. 😊
-
----
 
 ---
 
